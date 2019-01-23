@@ -80,7 +80,7 @@ ul.bluetable > li {
     float: left;
     width: 43%;
     height: 35em;
-    font-size: 14pt;
+    font-size: 18pt;
     padding: 0.5em 0.5em;
     margin: 0.5em 0.5em;
     border: double 5px #4ec4d3;
