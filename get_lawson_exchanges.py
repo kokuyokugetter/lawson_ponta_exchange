@@ -1,5 +1,6 @@
 import requests, bs4
 import datetime
+from os import rename
 
 url = 'http://www.lawson.co.jp'
 today = datetime.datetime.today()
@@ -95,3 +96,4 @@ for item_w_tag in item_list_w_tag_sorted:
     file.write(str(item_w_tag))
 file.write("</ul></body></html>")
 file.close()
+rename('test.html', str(today)+'.html')
